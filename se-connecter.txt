@@ -1,0 +1,13 @@
+Voici les 3 comptes pour se connecter dans les 3 différents roles:
+
+accueil@gmail.com
+password
+Role_Accueil
+
+preparateur@gmail.com
+password
+Role_Preparateur
+
+admin@gmail.com
+password
+Role_Admin

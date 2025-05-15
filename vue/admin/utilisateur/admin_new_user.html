@@ -1,0 +1,35 @@
+<div class="new-wrapper">
+    <div class="new-container">
+        <h1>Nouvel utilisateur</h1>
+
+        <form action="" method="post">
+            <div class="new-form-group">
+                <label for="nom" class="new-label">Nom</label>
+                <input type="text" name="nom" id="nom" class="new-input">
+            </div>
+            <div class="new-form-group">
+                <label for="prenom" class="new-label">Prénom</label>
+                <input type="text" name="prenom" id="prenom" class="new-input">
+            </div>
+            <div class="new-form-group">
+                <label for="email" class="new-label">Email</label>
+                <input type="email" name="email" id="email" class="new-input">
+            </div>
+            <div class="new-form-group">
+                <label for="password" class="user-new-label">Password</label>
+                <input type="password" name="password" id="password" class="new-input">
+            </div> 
+            <div class="new-form-group">
+                <label for="role" class="new-label">Rôle</label>
+                <select class="new-select" id="role" name="role" required>
+                    <option selected>Sélectionner un rôle</option>
+                    <option value="ROLE_ADMIN">Administrateur</option>
+                    <option value="ROLE_PREPARATEUR">Préparateur de commandes</option>
+                    <option value="ROLE_ACCUEIL">Gestionnaire de l'accueil</option>
+                </select>
+            </div>
+            <button type="submit" class="new-button-add" name="submit" value="submit">Ajouter</button>
+            <a href="javascript:history.back()" class="new-button-return">Retour</a> 
+        </form>
+    </div>
+</div>

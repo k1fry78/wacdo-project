@@ -1,0 +1,151 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #c94d01;
+  color: black;
+}
+
+/* LISTE */
+
+.liste-container {
+    width: 80%;
+    min-height: 92vh;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start; /* Aligne le contenu en haut */
+    align-items: center;
+    background-color: #fff; /* Couleur de fond blanche */
+    margin: auto; /* Centre verticalement et horizontalement */
+    padding: 20px; /* Ajouter un espace intérieur */
+    border-radius: 10px; /* Coins arrondis */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Ombre pour un effet visuel */
+    margin-top: 17px;
+}
+.liste-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.liste-table {
+    width: 80%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+.liste-table,
+.liste-table__header-cell,
+.liste-table__cell {
+    border: 1px solid #ddd;
+}
+.liste-table__header-cell,
+.liste-table__cell {
+    padding: 8px;
+    text-align: left;
+}
+.liste-table__header-cell {
+    background-color: #f2f2f2;
+}
+.liste-table__empty {
+    text-align: center;
+    font-style: italic;
+    color: #888;
+}
+.liste-button-deconnexion {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #fff;
+    background-color: red;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none; /* Supprime le soulignement */
+}
+.liste-button-deconnexion:hover {
+    background-color: rgba(255, 4, 4, 0.6);
+}
+
+/* VOIR */
+
+.voir-container {
+    width: 80%;
+    min-height: 92vh;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: #fff;
+    margin: auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 17px;
+    
+}
+.voir-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.voir-table {
+    width: 80%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+.voir-table,
+.voir-table__header-cell,
+.voir-table__cell {
+    border: 1px solid #ddd;
+}
+.voir-table__header-cell,
+.voir-table__cell {
+    padding: 8px;
+    text-align: left;
+}
+.voir-table__header-cell {
+    background-color: #f2f2f2;
+}
+.voir-table__empty {
+    text-align: center;
+    font-style: italic;
+    color: #888;
+}
+
+.voir-button-retour {
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #6c757d;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    margin-bottom: 15px;
+}
+.voir-button-retour:hover {
+    background-color: #5a6268;
+}
+
+.voir-form {
+display: flex;
+flex-direction: column;
+align-items: center;
+margin-top: 20px;
+
+}
+
+.voir-button-pret {
+    padding: 10px 20px;
+    position: absolute;
+    font-size: 16px;
+    color: #fff;
+    background-color: green;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none; /* Supprime le soulignement */
+    margin-top: 20px; /* Ajoute un espace au-dessus du bouton */
+}
+.voir-button-pret:hover {
+    background-color: rgba(0, 128, 0, 0.719);
+}
