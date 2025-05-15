@@ -51,7 +51,7 @@ define('DB_NAME', 'wacdo');
 define('DB_USER', 'root');
 define('DB_PASS', '');
 ?>
-http://localhost/wacdo-project/public/
+http://localhost/wacdo-project/
 
 Voici les 3 comptes pour se connecter dans les 3 différents roles:
 
